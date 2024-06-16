@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    column-gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.box{
+    height: 200px;
+    width: 300px;
+    display: none;
+    flex-direction: column;
+    row-gap: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid black;
+}
+input{
+    height: 30px;
+    background: rgb(234, 231, 238);
+    border-radius: 4px;
+    color: rgb(21, 20, 20);
+    border: 1px solid black;
+    outline: 0;
+    
+}
+button{
+    width: 100px;
+    height: 30px;
+    background: green;
+    margin: 0 auto;
+    border-radius: 5px;
+    outline: 0;
+
+}
+span{
+    font-size: 10px;
+    color: red;
+}
+.box1{
+    background: rgb(232, 118, 118);
+    display: flex;
+}
+.box2{
+    background: rgb(64, 168, 237);
+}
+.box3{
+    background: yellowgreen;
+}
+.box4{
+    background: rgb(239, 106, 239);
+}
+.box5{
+    
+    background: url(../image/trophi.jpg) no-repeat center;
+    background-size: contain;
+   
+}
